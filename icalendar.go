@@ -1,4 +1,4 @@
-package main
+package icalendar
 
 import (
 	"github.com/mattismoel/icalendar/types"
