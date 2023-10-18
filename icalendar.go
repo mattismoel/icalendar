@@ -1,4 +1,4 @@
-package types
+package main
 
 import (
 	"github.com/mattismoel/icalendar/types"
@@ -9,9 +9,8 @@ func New(productName, cooperation, filepath string) *types.ICalendar {
 		ProductName:  productName,
 		Coorperation: cooperation,
 		FilePath:     filepath,
-		Events: make([]*types.ICalEvent, 0),
+		Events:       make([]*types.ICalEvent, 0),
 	}
 }
-
 
 
