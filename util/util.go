@@ -21,7 +21,6 @@ func TimeToICalTimestamp(t *time.Time) (string, error) {
 // Returns a string representation of an integer with given amount of padding zeroes
 func PadInt(i int, count int) string {
 	layout := fmt.Sprintf("%%0%dd", count)
-	fmt.Println(layout)
 	return fmt.Sprintf(layout, i)
 }
 
